@@ -1,0 +1,25 @@
+defaults:
+  - default
+  - _self_
+
+dataset_name: EBNeRDsmall
+dataset_dir: ${path.data_dir}/ebnerd_small
+dataset_lang: danish
+
+data_format: parquet
+
+pos_count: 480566
+train_len: 232887
+train_divided_len: 232887
+
+val_len: 244647
+test_len: 0
+
+# Info
+news_num: 20738
+word_num: 23410
+user_num: 30485
+
+# train
+category_num: 2975
+subcategory_num: 2968

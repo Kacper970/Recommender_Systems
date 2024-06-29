@@ -1,0 +1,7 @@
+defaults:
+  - GLORY
+  - _self_
+
+entity_emb_dim: 512
+# his_size changed between 50 and 100:
+his_size: 50
